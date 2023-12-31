@@ -11,7 +11,8 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Poppins', sans-serif, 'Kalam', cursive;
+    font-family: 'Kalam','Poppins', sans-serif,  cursive;
+    background: linear-gradient(#1c65ca,#b0d7f0);
 }
 
 img {
@@ -19,25 +20,78 @@ img {
 }
 
 .hero{
-    height: 343px;
-    background-image: url(images/torshov.jpg);
-    background-size: cover;
+    height: 500px;
+    background-image: url(images/nightsky.webp);
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     text-shadow: 0 0 1px black;
+    font-weight: 400;
 }
 
 #title {
     background-color: #457B9D;
-    margin: 0 auto 0;
-    width: 250px;
+    margin: 0px auto 16px;
+    padding: 10px 20px;
+    font-size: 32px;
+    border-radius: 20px;
 }
+
+
  #sub-title {
-     margin: 0 auto 0;
+    margin-top: 16px ;
     background-color: #1D3557;
     font-family: Kalam;
-    width: 400px;
+    padding: 10px 20px;
+    border-radius: 20px;
  }
+
+ #section2-head {
+    margin-top: 50px ;
+    margin-bottom: 0;
+     color:#1D3557;
+     margin-bottom: 10px;
+ }
+
+ .activities {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .activity {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 400px;
+    border: 5px solid #2f63f3;
+    border-radius: 40px;
+    color: #1D3557;
+ }
+
+ .activity img{
+    border: 3px solid #3ad7f3;
+    border-radius: 50%;
+ }
+
+ .guide {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 500px;
+    padding: 10px ;
+    margin: 80px auto 60px;
+    background-color: #A8DADC;
+    border-radius: 20px;
+    border-bottom: 4px solid #1D3557;
+ }
+
+ .guide-info {
+    width: 200px }
+
+ .guide img {
+    width: 200px;
+    border-radius: 10px;
+ }
+
